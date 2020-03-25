@@ -1,0 +1,28 @@
+<div class="row-fluid pt-5">
+<button routerLink="" style="background-color:transparent;top: 0;" class="btn btn-secondary ml-5"><i class="fa fa-lg fa-arrow-left text-secondary"></i></button>
+  </div>
+  <div class="row mt-5 forma">
+    <div class="col-md-4 mx-auto">
+      <div class="card">
+        <div class="card-body">
+          <h1 class="text-center pb-4 pt-3">
+            <span class="text-secondary"><i class="fa fa-lock"></i> ZZJZBPKG </span>Login
+          </h1>
+          <form (submit)="onSubmit()">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" class="form-control" required>
+            </div>
+            <div class="row">
+              <input type="submit" value="Login" class="btn btn-secondary btn-block">
+            </div>
+          </form>
+          <div class="col-lg-6 mt-3"><a (click)="resetPassword()" href="login">Reset your password</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
