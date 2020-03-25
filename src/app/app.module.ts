@@ -10,6 +10,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NovostComponent } from './components/novost/novost.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
+import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './components/login/login.component';
+import { NovostDetaljiComponent } from './components/novost-detalji/novost-detalji.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +24,13 @@ import { AboutComponent } from './components/about/about.component';
     FooterComponent,
     NovostComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    LoginComponent,
+    NovostDetaljiComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
