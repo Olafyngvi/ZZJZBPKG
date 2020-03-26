@@ -13,6 +13,7 @@ import { AboutComponent } from './components/about/about.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './components/login/login.component';
 import { NovostDetaljiComponent } from './components/novost-detalji/novost-detalji.component';
+import { ProvaComponent } from './components/prova/prova.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NovostDetaljiComponent } from './components/novost-detalji/novost-detal
     HomeComponent,
     AboutComponent,
     LoginComponent,
-    NovostDetaljiComponent
+    NovostDetaljiComponent,
+    ProvaComponent
   ],
   imports: [
     BrowserModule,
