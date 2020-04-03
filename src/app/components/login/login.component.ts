@@ -16,10 +16,7 @@ export class LoginComponent implements OnInit {
               private router: Router) { }
 
   ngOnInit() {
-    const user = this.auth.getAuth();
-    if (user) {
-      this.router.navigate(['/dashboard']);
-    }
+
   }
   resetPassword() {}
   onSubmit() {

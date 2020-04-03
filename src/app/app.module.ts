@@ -23,6 +23,8 @@ import { LoginComponent } from './components/login/login.component';
 import { NovostDetaljiComponent } from './components/novost-detalji/novost-detalji.component';
 import { ProvaComponent } from './components/prova/prova.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { AdminTopbarComponent } from './components/admin-topbar/admin-topbar.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     LoginComponent,
     NovostDetaljiComponent,
     ProvaComponent,
-    DashboardComponent
+    DashboardComponent,
+    SidebarComponent,
+    AdminTopbarComponent
   ],
   imports: [
     BrowserModule,
